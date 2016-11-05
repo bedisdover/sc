@@ -3560,7 +3560,6 @@ jQuery(function() {
 
 	body = document.getElementsByTagName( "body" )[ 0 ];
 	if ( !body || !body.style ) {
-		// Return for frameset docs that don't have a body
 		return;
 	}
 
