@@ -45,7 +45,10 @@
             "bottom": 36
         },
 
-        "headerTemplate": null,
+        "headerTemplate": {
+			"left":  "SC详细设计文档",
+			"right": "bedisdover"
+		},
 
         "footerTemplate": null
     }
