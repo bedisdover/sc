@@ -1,52 +1,31 @@
 {
-    "output": null,
-
-    "generator": "site",
-
-    "title": "SC详细设计文档",
-    "description": null,
-
-    "extension": null,
-
-    "plugins": [],
-
-    "pluginsConfig": {
-        "fontSettings": {
-        }
-    },
-
-    "variables": {},
-
-    "links": {
-        "sidebar": {
-        },
-
-        "sharing": {
-            "google": null,
-            "facebook": null,
-            "twitter": null,
-            "weibo": null,
-            "all": null
-        }
-    },
-
-
-    "pdf": {
-        "pageNumbers": false,
-
-        "fontSize": 12,
-
-        "paperSize": "a4",
-
-        "margin": {
-            "right": 62,
-            "left": 62,
-            "top": 36,
-            "bottom": 36
-        },
-
-        "headerTemplate": null,
-
-        "footerTemplate": null
-    }
+	"title": "SC详细设计文档",
+	"description": "",
+	"author": "bedisdover",
+	"language" : "zh-hans",
+	"links": {
+		"sidebar": {
+		}
+	},
+	"plugins": [
+		"github",
+		"toggle-chapters",
+		"splitter",
+		"tbfed-pagefooter",
+		"prism",
+		"disqus"
+	],
+	"pluginsConfig": {
+		"github": {
+			"url": "https://github.com/bedisdover/sc"
+		},
+		"tbfed-pagefooter": {
+			"copyright": "Copyright &copy bedisdover 2016",
+			"modify_label": "File modified:",
+			"modify_format": "YYYY-MM-DD HH:mm"
+		},
+		"disqus": {
+			"shortName": ""
+		}
+	}
 }
